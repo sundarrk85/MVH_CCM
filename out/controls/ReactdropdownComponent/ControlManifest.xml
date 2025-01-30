@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="FirstPcfNamespace" constructor="ReactdropdownComponent" version="0.0.1" display-name-key="ReactdropdownComponent" description-key="ReactdropdownComponent description" control-type="virtual" api-version="1.3.15">
+    <external-service-usage enabled="false"/>
+    <property name="MVHCommodityGUID" display-name-key="MVH_Commodity_GUID" description-key="MVH Commodity GUID" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="MVHCommodityText" display-name-key="MVH_Commodity_Text" description-key="MVH Commodity Text" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="RecordCount" display-name-key="No_of_Rows" description-key="No_of_Rows" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <property name="BusinessUnit" display-name-key="Business_Unit" description-key="Business_Unit_MVH_or_VCA" of-type="SingleLine.Text" usage="bound" required="false"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <platform-library name="React" version="16.14.0"/>
+      <platform-library name="Fluent" version="9.46.2"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true"/>
+    </feature-usage>
+    <built-by name="pac" version="1.37.4"/>
+  </control>
+</manifest>

@@ -7,17 +7,17 @@
 #**/generated
 
 # output directory
-/out
+#/out
 
 # msbuild output directories
 #/bin
 #/obj
 
 # MSBuild Binary and Structured Log
-*.binlog
+#*.binlog
 
 # Visual Studio cache/options directory
-/.vs
+#/.vs
 
 # macos
-.DS_Store
+#.DS_Store
