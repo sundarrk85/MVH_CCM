@@ -1,0 +1,99 @@
+/* Container for the dropdowns */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Each dropdown item style */
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 300px;
+  position: relative;
+}
+
+.dropdown-option {
+  background-color: white !important;
+}
+
+/* Label styling */
+.dropdown-item label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/*Dropdown styles*/
+.multidropdown__container {
+  width: 250px;
+  position: relative;
+  font-family: "Arial", sans-serif;
+}
+.multidropdown__dropdown {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.multidropdown__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+.multidropdown__option-container {
+  padding: 5px;
+  margin: 2px 0;
+}
+.multidropdown__has-submenu {
+  font-weight: bold;
+}
+.multidropdown__submenu {
+  padding-left: 20px;
+}
+.multidropdown__submenu-indicator {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+} /* Focus Styles */
+button:focus {
+  outline: 2px solid #0078d4;
+} /* Hover Effect for Submenu Items */
+button:hover {
+  background-color: #e2e2e2;
+}
+
+/*Styles*/
+.multidropdown__container {
+  position: relative;
+}
+.multidropdown__dropdown {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+.multidropdown__nested-options {
+  padding-left: 10px;
+}
+.multidropdown__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0078d4;
+  cursor: pointer;
+}
+.multidropdown__link:hover {
+  text-decoration: underline;
+}

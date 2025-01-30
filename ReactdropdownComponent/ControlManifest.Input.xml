@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control 
+    namespace="FirstPcfNamespace" 
+    constructor="ReactdropdownComponent" 
+    version="0.0.1" 
+    display-name-key="ReactdropdownComponent" 
+    description-key="ReactdropdownComponent description" 
+    control-type="virtual">
+
+    <!-- External service usage -->
+    <external-service-usage enabled="false" />
+
+    <!-- Property node identifies a specific, configurable piece of data -->
+    
+ 
+   
+      <!--<property 
+      name="L1Commodity" 
+      display-name-key="Property_Display_Key" 
+      description-key="Property_Desc_Key" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="true" />
+
+      <property 
+      name="L2Commodity" 
+      display-name-key="Property_Display_Key" 
+      description-key="Property_Desc_Key" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="true" />
+
+      <property 
+      name="L3Commodity" 
+      display-name-key="Property_Display_Key" 
+      description-key="Property_Desc_Key" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="true" />-->
+
+     
+
+      <property 
+      name="MVHCommodityGUID" 
+      display-name-key="MVH_Commodity_GUID" 
+      description-key="MVH Commodity GUID" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="true" />
+
+      <property 
+      name="MVHCommodityText" 
+      display-name-key="MVH_Commodity_Text" 
+      description-key="MVH Commodity Text" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="true" />
+
+       <property 
+      name="RecordCount" 
+      display-name-key="No_of_Rows" 
+      description-key="No_of_Rows" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="false" />  
+
+      <property 
+      name="BusinessUnit" 
+      display-name-key="Business_Unit" 
+      description-key="Business_Unit_MVH_or_VCA" 
+      of-type="SingleLine.Text" 
+      usage="bound" 
+      required="false" />  
+
+      
+
+    <!-- Resources -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.14.0" />
+      <platform-library name="Fluent" version="9.46.2" />
+    </resources>
+
+    <!-- Feature usage -->
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+
+  </control>
+
+</manifest>
