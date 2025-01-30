@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UcUnarK0ijk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sundar.k\\Desktop\\PCF\\16 January\\dropdownStatic\\dropdownStatic\\dropdown.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sundar.k\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\sundar.k\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\sundar.k\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.38.3\\microsoft.powerapps.msbuild.pcf.1.38.3.nupkg.sha512"
+  ],
+  "logs": []
+}
